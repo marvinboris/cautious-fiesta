@@ -1,0 +1,845 @@
+{
+    "global": {
+        "app_name": "Carrier",
+        "company_name": "Carrier Management App",
+        "logo": "\/images\/CARRIER.png"
+    },
+    "pages": {
+        "en": {
+            "general": {
+                "date": "Date",
+                "time": "Time",
+                "home": "Home",
+                "days": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "months": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
+                ]
+            },
+            "components": {
+                "form": {
+                    "save": "Save",
+                    "selected_file": "File selected"
+                },
+                "list": {
+                    "action": "Action",
+                    "all": "All",
+                    "first": "First",
+                    "last": "Last",
+                    "loading": "Loading",
+                    "print": "Print",
+                    "pdf": "PDF",
+                    "csv": "CSV",
+                    "excel": "Excel",
+                    "search": "Search",
+                    "see": "See",
+                    "show": "Show",
+                    "sl": "SL",
+                    "showing": "Showing",
+                    "from": "from",
+                    "entries": {
+                        "singular": "entry",
+                        "plural": "entries"
+                    }
+                }
+            },
+            "auth": {
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "All rights reserved by"
+                },
+                "user": {
+                    "login": {
+                        "dont_be_late": "Don't be late",
+                        "get_in": "Sign In",
+                        "email_address": "E-mail address",
+                        "password": "Password"
+                    }
+                },
+                "admin": {
+                    "login": {
+                        "sign_in_to": "Sign In to",
+                        "sign_in": "Sign In",
+                        "admin_panel": "Admin Panel",
+                        "email_address": "E-mail address",
+                        "password": "Password",
+                        "sms": "SMS",
+                        "email": "E-mail",
+                        "otp_method": "OTP Method"
+                    },
+                    "verify": {
+                        "enter": "Enter",
+                        "verification_code": "Verification code",
+                        "continue": "Continue",
+                        "didnt_receive_code": "Didn't receive code",
+                        "resend": "Resend"
+                    }
+                }
+            },
+            "messages": {
+                "auth": {
+                    "admin": {
+                        "not_found": "These credentials do not match our records.",
+                        "invalid": "Verification code is invalid.",
+                        "sent": "Verification code successfully sent."
+                    },
+                    "user": {
+                        "inactive": "Your account is not active. Please, contact the administrator.",
+                        "unauthorized": "Unauthorized",
+                        "sent": "Reset password link successfully sent.",
+                        "reset": "Your password has been successfully reset.",
+                        "failure": "Failure."
+                    }
+                },
+                "admins": {
+                    "not_found": "Admin not found.",
+                    "created": "Admin successfully created.",
+                    "updated": "Admin successfully updated.",
+                    "deleted": "Admin successfully deleted."
+                },
+                "users": {
+                    "not_found": "User not found.",
+                    "created": "User successfully created.",
+                    "updated": "User successfully updated.",
+                    "deleted": "User successfully deleted."
+                },
+                "roles": {
+                    "not_found": "Role not found.",
+                    "created": "Role successfully created.",
+                    "updated": "Role successfully updated.",
+                    "deleted": "Role successfully deleted."
+                },
+                "features": {
+                    "not_found": "Feature not found.",
+                    "created": "Feature successfully created.",
+                    "updated": "Feature successfully updated.",
+                    "deleted": "Feature successfully deleted."
+                },
+                "categories": {
+                    "not_found": "Category not found.",
+                    "created": "Category successfully created.",
+                    "updated": "Category successfully updated.",
+                    "deleted": "Category successfully deleted."
+                },
+                "drivers": {
+                    "not_found": "Driver not found.",
+                    "created": "Driver successfully created.",
+                    "updated": "Driver successfully updated.",
+                    "deleted": "Driver successfully deleted."
+                },
+                "posts": {
+                    "not_found": "Post not found.",
+                    "created": "Post successfully created.",
+                    "updated": "Post successfully updated.",
+                    "deleted": "Post successfully deleted."
+                },
+                "products": {
+                    "not_found": "Product not found.",
+                    "created": "Product successfully created.",
+                    "updated": "Product successfully updated.",
+                    "deleted": "Product successfully deleted."
+                },
+                "languages": {
+                    "not_found": "Language not found.",
+                    "created": "Language successfully created.",
+                    "updated": "Language successfully updated.",
+                    "deleted": "Language successfully deleted."
+                },
+                "notifications": {
+                    "not_found": "Notification not found."
+                },
+                "cms": {
+                    "not_found": "Content not found.",
+                    "updated": "Content successfully updated."
+                },
+                "settings": {
+                    "not_found": "Setting not found.",
+                    "created": "Setting successfully created.",
+                    "updated": "Setting successfully updated.",
+                    "deleted": "Setting successfully deleted."
+                }
+            },
+            "backend": {
+                "header": {
+                    "sign_out": "Sign out",
+                    "no_message": "No message",
+                    "no_notification": "No notification",
+                    "logout": "Logout",
+                    "close": "Close",
+                    "sure_logout": "Are you sure you want to logout",
+                    "you_have": "You have",
+                    "messages": "messages",
+                    "view_all_messages": "View all messages",
+                    "notifications": "notifications",
+                    "view_all_notifications": "View all notifications"
+                },
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "All rights reserved by"
+                },
+                "sidebar": {
+                    "admin": "Administrator",
+                    "user": "User",
+                    "menu": {
+                        "dashboard": "Dashboard",
+                        "admins": {
+                            "title": "Admins",
+                            "add": "Add admin",
+                            "index": "Admin list"
+                        },
+                        "users": {
+                            "title": "Users",
+                            "add": "Add user",
+                            "index": "User list"
+                        },
+                        "roles": {
+                            "title": "Roles",
+                            "add": "Add role",
+                            "index": "Role list"
+                        },
+                        "features": {
+                            "title": "Features",
+                            "add": "Add feature",
+                            "index": "Feature list"
+                        },
+                        "categories": {
+                            "title": "Categories",
+                            "add": "Add category",
+                            "index": "Category list"
+                        },
+                        "drivers": {
+                            "title": "Drivers",
+                            "add": "Add driver",
+                            "index": "Driver list"
+                        },
+                        "languages": {
+                            "title": "Languages",
+                            "add": "Add language",
+                            "index": "Language list"
+                        },
+                        "cms": {
+                            "title": "CMS",
+                            "global": "Global",
+                            "general": "General",
+                            "components": "Components",
+                            "auth": "Auth",
+                            "messages": "Messages",
+                            "backend": "Backend",
+                            "frontend": "Frontend"
+                        },
+                        "notifications": "Notifications",
+                        "settings": {
+                            "title": "Settings",
+                            "cms": "CMS",
+                            "language": "Language settings"
+                        }
+                    }
+                },
+                "pages": {
+                    "dashboard": {
+                        "admin": {
+                            "title": "Admin panel",
+                            "subtitle": "Dashboard",
+                            "blocks": {
+                                "subscription": {
+                                    "title": "Subscription Amount",
+                                    "description": "Amount of services offered"
+                                },
+                                "total_customers": {
+                                    "title": "Total Customers",
+                                    "description": "Customers in the system"
+                                },
+                                "expenses": {
+                                    "title": "Expenses",
+                                    "description": "All recorded expenses"
+                                },
+                                "total_cash": {
+                                    "title": "Total Case",
+                                    "description": "Amount available at checkout"
+                                }
+                            },
+                            "sales_report": "Sales Report"
+                        },
+                        "user": {
+                            "title": "User panel",
+                            "subtitle": "Dashboard",
+                            "blocks": {
+                                "subscription": {
+                                    "title": "Subscription Amount",
+                                    "description": "Amount of services offered"
+                                },
+                                "total_customers": {
+                                    "title": "Total Customers",
+                                    "description": "Customers in the system"
+                                },
+                                "expenses": {
+                                    "title": "Expenses",
+                                    "description": "All recorded expenses"
+                                },
+                                "total_cash": {
+                                    "title": "Total Case",
+                                    "description": "Amount available at checkout"
+                                }
+                            },
+                            "sales_report": "Sales Report"
+                        }
+                    },
+                    "admins": {
+                        "title": "Administrators",
+                        "add": "Add admin",
+                        "edit": "Edit admin",
+                        "index": "Admin list",
+                        "form": {
+                            "name": "Admin name",
+                            "full_name": "Full name",
+                            "phone": "Phone number",
+                            "password": "Password",
+                            "password_confirmation": "Confirm password",
+                            "email": "E-mail address",
+                            "admin_photo": "Admin photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "users": {
+                        "title": "Users",
+                        "add": "Add user",
+                        "edit": "Edit user",
+                        "index": "User list",
+                        "form": {
+                            "name": "User name",
+                            "full_name": "Full name",
+                            "phone": "Phone number",
+                            "password": "Password",
+                            "password_confirmation": "Confirm password",
+                            "email": "E-mail address",
+                            "role": "Role",
+                            "select_role": "Select role",
+                            "user_photo": "User photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "roles": {
+                        "title": "Roles",
+                        "add": "Add role",
+                        "edit": "Edit role",
+                        "index": "Role list",
+                        "form": {
+                            "name": "Name",
+                            "description": "Description",
+                            "features": "Features",
+                            "created_at": "Created at",
+                            "create": "Create",
+                            "update": "Update",
+                            "delete": "Delete"
+                        }
+                    },
+                    "features": {
+                        "title": "Features",
+                        "add": "Add feature",
+                        "edit": "Edit feature",
+                        "index": "Feature list",
+                        "form": {
+                            "name": "Name",
+                            "prefix": "Prefix",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "languages": {
+                        "title": "Languages",
+                        "add": "Add language",
+                        "edit": "Edit language",
+                        "index": "Language list",
+                        "form": {
+                            "name": "Name",
+                            "abbr": "Abbreviation",
+                            "flag": "Flag",
+                            "select_flag": "Select flag",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "categories": {
+                        "title": "Categories",
+                        "add": "Add category",
+                        "edit": "Edit category",
+                        "index": "Category list",
+                        "form": {
+                            "name": "Name"
+                        }
+                    },
+                    "drivers": {
+                        "title": "Drivers",
+                        "add": "Add driver",
+                        "edit": "Edit driver",
+                        "index": "Driver list",
+                        "form": {
+                            "first_name": "First name",
+                            "last_name": "Last name",
+                            "name": "Full name",
+                            "nid": "NID",
+                            "driving_license": "Driving license",
+                            "card": "Card",
+                            "category": "Category",
+                            "select_category": "Select category",
+                            "driver_photo": "Driver photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "cms": {
+                        "title": "CMS",
+                        "global": "Global",
+                        "general": "General",
+                        "messages": "Messages",
+                        "frontend": "Frontend",
+                        "components": "Components",
+                        "backend": "Backend",
+                        "auth": "Auth",
+                        "form": {
+                            "logo": "Logo",
+                            "app_name": "App name",
+                            "company_name": "Company name"
+                        }
+                    },
+                    "settings": {
+                        "title": "Settings",
+                        "language": {
+                            "title": "Language settings",
+                            "form": {
+                                "select_language": "Select a language"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "fr": {
+            "general": {
+                "date": "Date",
+                "time": "Heure",
+                "home": "Accueil",
+                "days": [
+                    "Dimanche",
+                    "Lundi",
+                    "Mardi",
+                    "Mercredi",
+                    "Jeudi",
+                    "Vendredi",
+                    "Samedi"
+                ],
+                "months": [
+                    "Jan",
+                    "F\u00e9v",
+                    "Mar",
+                    "Avr",
+                    "Mai",
+                    "Jui",
+                    "Jul",
+                    "Aou",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "D\u00e9c"
+                ]
+            },
+            "components": {
+                "form": {
+                    "save": "Sauvegarder",
+                    "selected_file": "Fichier s\u00e9lectionn\u00e9"
+                },
+                "list": {
+                    "action": "Action",
+                    "all": "Toutes",
+                    "first": "Premi\u00e8re",
+                    "last": "Derni\u00e8re",
+                    "loading": "En cours",
+                    "print": "Imprimer",
+                    "pdf": "PDF",
+                    "csv": "CSV",
+                    "excel": "Excel",
+                    "search": "Rechercher",
+                    "see": "Voir",
+                    "show": "Afficher",
+                    "sl": "SL",
+                    "showing": "Affichage de",
+                    "from": "sur",
+                    "entries": {
+                        "singular": "entr\u00e9e",
+                        "plural": "entr\u00e9es"
+                    }
+                }
+            },
+            "auth": {
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                },
+                "user": {
+                    "login": {
+                        "dont_be_late": "Ne soyez pas en retard",
+                        "get_in": "Se connecter",
+                        "email_address": "Adresse mail",
+                        "password": "Mot de passe"
+                    }
+                },
+                "admin": {
+                    "login": {
+                        "sign_in_to": "Se connecter au",
+                        "sign_in": "Se connecter",
+                        "admin_panel": "Panneau de l'administrateur",
+                        "email_address": "Adresse mail",
+                        "password": "Mot de passe",
+                        "sms": "SMS",
+                        "email": "E-mail",
+                        "otp_method": "M\u00e9thode OTP"
+                    },
+                    "verify": {
+                        "enter": "Entrer le",
+                        "verification_code": "Code de v\u00e9rification",
+                        "continue": "Continuer",
+                        "didnt_receive_code": "Vous ne recevez pas de code",
+                        "resend": "Renvoyer"
+                    }
+                }
+            },
+            "messages": {
+                "auth": {
+                    "admin": {
+                        "not_found": "Ces informations d'identification ne correspondent pas \u00e0 nos enregistrements.",
+                        "invalid": "Le code de v\u00e9rification n'est pas valide.",
+                        "sent": "Code de v\u00e9rification envoy\u00e9 avec succ\u00e8s."
+                    },
+                    "user": {
+                        "inactive": "Votre compte n'est pas actif. Veuillez contacter l'administrateur.",
+                        "unauthorized": "Non autoris\u00e9.",
+                        "sent": "Le lien de r\u00e9initialisation du mot de passe a bien \u00e9t\u00e9 envoy\u00e9.",
+                        "reset": "Votre mot de passe a \u00e9t\u00e9 r\u00e9initialis\u00e9 avec succ\u00e8s.",
+                        "failure": "\u00c9chec."
+                    }
+                },
+                "admins": {
+                    "not_found": "Administrateur inexistant.",
+                    "created": "Administrateur cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Administrateur modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Administrateur supprim\u00e9 avec succ\u00e8s."
+                },
+                "users": {
+                    "not_found": "Utilisateur inexistant.",
+                    "created": "Utilisateur cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Utilisateur modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Utilisateur supprim\u00e9 avec succ\u00e8s."
+                },
+                "roles": {
+                    "not_found": "R\u00f4le inexistant.",
+                    "created": "R\u00f4le cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "R\u00f4le modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "R\u00f4le supprim\u00e9 avec succ\u00e8s."
+                },
+                "features": {
+                    "not_found": "Fonctionnalit\u00e9 inexistante.",
+                    "created": "Fonctionnalit\u00e9 cr\u00e9\u00e9e avec succ\u00e8s.",
+                    "updated": "Fonctionnalit\u00e9 modifi\u00e9e avec succ\u00e8s.",
+                    "deleted": "Fonctionnalit\u00e9 supprim\u00e9e avec succ\u00e8s."
+                },
+                "categories": {
+                    "not_found": "Cat\u00e9gorie inexistante.",
+                    "created": "Cat\u00e9gorie cr\u00e9\u00e9e avec succ\u00e8s.",
+                    "updated": "Cat\u00e9gorie modifi\u00e9e avec succ\u00e8s.",
+                    "deleted": "Cat\u00e9gorie supprim\u00e9e avec succ\u00e8s."
+                },
+                "drivers": {
+                    "not_found": "Transporteur inexistant.",
+                    "created": "Transporteur cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Transporteur modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Transporteur supprim\u00e9 avec succ\u00e8s."
+                },
+                "languages": {
+                    "not_found": "Langue inexistante.",
+                    "created": "Langue cr\u00e9\u00e9e avec succ\u00e8s.",
+                    "updated": "Langue modifi\u00e9e avec succ\u00e8s.",
+                    "deleted": "Langue supprim\u00e9e avec succ\u00e8s."
+                },
+                "notifications": {
+                    "not_found": "Notification inexistante."
+                },
+                "cms": {
+                    "not_found": "Contenu inexistant.",
+                    "updated": "Contenu modifi\u00e9 avec succ\u00e8s."
+                },
+                "settings": {
+                    "not_found": "Param\u00e8tre inexistant.",
+                    "created": "Param\u00e8tre cr\u00e9\u00e9 avec succ\u00e8s.",
+                    "updated": "Param\u00e8tre modifi\u00e9 avec succ\u00e8s.",
+                    "deleted": "Param\u00e8tre supprim\u00e9 avec succ\u00e8s."
+                }
+            },
+            "backend": {
+                "header": {
+                    "sign_out": "D\u00e9connexion",
+                    "no_message": "Pas de message",
+                    "no_notification": "Pas de notification",
+                    "logout": "D\u00e9connexion",
+                    "close": "Fermer",
+                    "sure_logout": "\u00cates-vous s\u00fbr de vouloir vous d\u00e9connecter",
+                    "you_have": "Vous avez",
+                    "messages": "messages",
+                    "view_all_messages": "Tous les messages",
+                    "notifications": "notifications",
+                    "view_all_notifications": "Toutes les notifications"
+                },
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                },
+                "sidebar": {
+                    "admin": "Administrateur",
+                    "user": "Utilisateur",
+                    "menu": {
+                        "dashboard": "Tableau de bord",
+                        "admins": {
+                            "title": "Administrateurs",
+                            "add": "Ajouter un administrateur",
+                            "index": "Liste des administrateurs"
+                        },
+                        "users": {
+                            "title": "Utilisateurs",
+                            "add": "Ajouter un utilisateur",
+                            "index": "Liste des utilisateurs"
+                        },
+                        "roles": {
+                            "title": "R\u00f4les",
+                            "add": "Ajouter un r\u00f4le",
+                            "index": "Liste des r\u00f4les"
+                        },
+                        "features": {
+                            "title": "Fonctionnalit\u00e9s",
+                            "add": "Ajouter une fonctionnalit\u00e9",
+                            "index": "Liste des fonctionnalit\u00e9s"
+                        },
+                        "categories": {
+                            "title": "Cat\u00e9gories",
+                            "add": "Ajouter une cat\u00e9gorie",
+                            "index": "Liste des cat\u00e9gories"
+                        },
+                        "drivers": {
+                            "title": "Transporteurs",
+                            "add": "Ajouter un transporteur",
+                            "index": "Liste des transporteurs"
+                        },
+                        "languages": {
+                            "title": "Langues",
+                            "add": "Ajouter une langue",
+                            "index": "Liste des langues"
+                        },
+                        "cms": {
+                            "title": "CMS",
+                            "global": "Global",
+                            "general": "G\u00e9n\u00e9ral",
+                            "components": "Composants",
+                            "auth": "Auth",
+                            "messages": "Messages",
+                            "backend": "Backend",
+                            "frontend": "Frontend"
+                        },
+                        "notifications": "Notifications",
+                        "settings": {
+                            "title": "R\u00e9glages",
+                            "cms": "CMS",
+                            "language": "Param\u00e8tres de langue"
+                        }
+                    }
+                },
+                "pages": {
+                    "dashboard": {
+                        "admin": {
+                            "title": "Panneau de l'administrateur",
+                            "subtitle": "Tableau de bord",
+                            "blocks": {
+                                "subscription": {
+                                    "title": "Montant Abonnements",
+                                    "description": "Montant des services offerts"
+                                },
+                                "total_customers": {
+                                    "title": "Clients Total",
+                                    "description": "Clients dans le syst\u00e8me"
+                                },
+                                "expenses": {
+                                    "title": "D\u00e9penses",
+                                    "description": "Toutes les d\u00e9penses enregistr\u00e9es"
+                                },
+                                "total_cash": {
+                                    "title": "Caisse Totale",
+                                    "description": "Montant disponible en caisse"
+                                }
+                            },
+                            "sales_report": "Rapport Ventes"
+                        },
+                        "user": {
+                            "title": "Panneau de l'utilisateur",
+                            "subtitle": "Tableau de bord",
+                            "blocks": {
+                                "subscription": {
+                                    "title": "Montant Abonnements",
+                                    "description": "Montant des services offerts"
+                                },
+                                "total_customers": {
+                                    "title": "Clients Total",
+                                    "description": "Clients dans le syst\u00e8me"
+                                },
+                                "expenses": {
+                                    "title": "D\u00e9penses",
+                                    "description": "Toutes les d\u00e9penses enregistr\u00e9es"
+                                },
+                                "total_cash": {
+                                    "title": "Caisse Totale",
+                                    "description": "Montant disponible en caisse"
+                                }
+                            },
+                            "sales_report": "Rapport Ventes"
+                        }
+                    },
+                    "admins": {
+                        "title": "Administrateurs",
+                        "add": "Ajouter un administrateur",
+                        "edit": "Modifier un administrateur",
+                        "index": "Liste des administrateurs",
+                        "form": {
+                            "name": "Nom de l'administrateur",
+                            "full_name": "Nom complet",
+                            "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "email": "Adresse mail",
+                            "admin_photo": "Photo de l'administrateur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "users": {
+                        "title": "Utilisateurs",
+                        "add": "Ajouter un utilisateur",
+                        "edit": "Modifier un utilisateur",
+                        "index": "Liste des utilisateurs",
+                        "form": {
+                            "name": "Nom d'utilisateur",
+                            "full_name": "Nom complet",
+                            "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "email": "Adresse mail",
+                            "role": "R\u00f4le",
+                            "select_role": "S\u00e9lectionner un r\u00f4le",
+                            "user_photo": "Photo de l'utilisateur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "roles": {
+                        "title": "R\u00f4les",
+                        "add": "Ajouter un r\u00f4le",
+                        "edit": "Modifier un r\u00f4le",
+                        "index": "Liste des r\u00f4les",
+                        "form": {
+                            "name": "Nom",
+                            "description": "Description",
+                            "features": "Fonctionnalit\u00e9s",
+                            "created_at": "Cr\u00e9\u00e9 le",
+                            "create": "Cr\u00e9er",
+                            "update": "Modifier",
+                            "delete": "Supprimer"
+                        }
+                    },
+                    "features": {
+                        "title": "Fonctionnalit\u00e9s",
+                        "add": "Ajouter une fonctionnalit\u00e9",
+                        "edit": "Modifier une fonctionnalit\u00e9",
+                        "index": "Liste des fonctionnalit\u00e9s",
+                        "form": {
+                            "name": "Nom",
+                            "prefix": "Pr\u00e9fixe",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "languages": {
+                        "title": "Langues",
+                        "add": "Ajouter une langue",
+                        "edit": "Modifier une langue",
+                        "index": "Liste des langues",
+                        "form": {
+                            "name": "Nom",
+                            "abbr": "Abr\u00e9viation",
+                            "flag": "Drapeau",
+                            "select_flag": "S\u00e9lectionner un drapeau",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "categories": {
+                        "title": "Cat\u00e9gories",
+                        "add": "Ajouter une cat\u00e9gorie",
+                        "edit": "Modifier une cat\u00e9gorie",
+                        "index": "Liste des cat\u00e9gories",
+                        "form": {
+                            "name": "Nom"
+                        }
+                    },
+                    "drivers": {
+                        "title": "Transporteurs",
+                        "add": "Ajouter un transporteur",
+                        "edit": "Modifier un transporteur",
+                        "index": "Liste des transporteurs",
+                        "form": {
+                            "first_name": "Pr\u00e9noms",
+                            "last_name": "Noms",
+                            "name": "Nom complet",
+                            "nid": "Carte d'identit\u00e9",
+                            "driving_license": "Permis de conduire",
+                            "card": "Carte",
+                            "category": "Cat\u00e9gorie",
+                            "select_category": "S\u00e9lectionner une cat\u00e9gorie",
+                            "driver_photo": "Photo du transporteur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "cms": {
+                        "title": "CMS",
+                        "global": "Global",
+                        "general": "G\u00e9n\u00e9ral",
+                        "messages": "Messages",
+                        "frontend": "Frontend",
+                        "components": "Composants",
+                        "backend": "Backend",
+                        "auth": "Auth",
+                        "form": {
+                            "logo": "Logo",
+                            "app_name": "Nom de l'application",
+                            "company_name": "Nom de l'entreprise"
+                        }
+                    },
+                    "settings": {
+                        "title": "R\u00e9glages",
+                        "language": {
+                            "title": "Param\u00e8tres de langue",
+                            "form": {
+                                "select_language": "S\u00e9lectionner une langue"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
